@@ -3,253 +3,193 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VetDose - Kullanım Koşulları / Terms of Use</title>
+  <title>VetDose - Kullanim Kosullari / Terms of Use</title>
   <style>
-    :root { --blue: #0D47A1; --teal: #00695C; }
+    :root { --blue: #0d47a1; --orange: #f57c00; --bg: #f8f9fa; --text: #22303a; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif; line-height: 1.7; color: #333; background: #f8f9fa; }
-    .container { max-width: 860px; margin: 0 auto; padding: 40px 24px; }
-    header { text-align: center; margin-bottom: 40px; }
-    header h1 { color: var(--blue); font-size: 28px; margin-bottom: 4px; }
-    header p { color: #666; font-size: 14px; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; line-height: 1.7; color: var(--text); background: var(--bg); }
+    .container { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
+    header { text-align: center; margin-bottom: 32px; }
+    header h1 { color: var(--blue); font-size: 30px; margin-bottom: 6px; }
+    header p { color: #5c6972; font-size: 14px; }
     .lang-toggle { display: flex; justify-content: center; gap: 12px; margin-bottom: 28px; }
-    .lang-toggle button { padding: 8px 20px; border: 2px solid var(--blue); background: #fff; color: var(--blue); border-radius: 20px; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.2s; }
+    .lang-toggle button { padding: 8px 20px; border: 2px solid var(--blue); background: #fff; color: var(--blue); border-radius: 999px; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.2s; }
     .lang-toggle button.active { background: var(--blue); color: #fff; }
-    section { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
-    h2 { color: var(--blue); font-size: 18px; margin-bottom: 10px; }
+    section { background: #fff; border-radius: 14px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06); }
+    h2 { color: var(--blue); font-size: 19px; margin-bottom: 12px; }
+    h3 { color: #0d5d94; font-size: 16px; margin: 18px 0 8px; }
     p, li { font-size: 15px; margin-bottom: 8px; }
-    ul, ol { padding-left: 20px; }
-    .warning { background: #fff3e0; border-left: 4px solid #f57c00; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 12px 0; }
-    footer { text-align: center; margin-top: 32px; color: #999; font-size: 13px; }
+    ul { padding-left: 20px; }
+    .warning { background: #fff3e0; border-left: 4px solid var(--orange); padding: 12px 16px; border-radius: 0 10px 10px 0; margin-top: 12px; }
+    .ok { background: #e8f5e9; border-left: 4px solid #2e7d32; padding: 12px 16px; border-radius: 0 10px 10px 0; margin-top: 12px; }
     .hidden { display: none; }
     a { color: var(--blue); text-decoration: none; }
     a:hover { text-decoration: underline; }
+    footer { text-align: center; margin-top: 24px; color: #7b8790; font-size: 13px; }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>VetDose</h1>
-      <p>Kullanım Koşulları / Terms of Use</p>
+      <p>Kullanim Kosullari / Terms of Use</p>
     </header>
 
     <div class="lang-toggle">
-      <button id="btn-tr" class="active" onclick="showLang('tr')">Türkçe</button>
+      <button id="btn-tr" class="active" onclick="showLang('tr')">Turkce</button>
       <button id="btn-en" onclick="showLang('en')">English</button>
     </div>
 
-    <!-- ======================== TURKISH ======================== -->
     <div id="lang-tr">
       <section>
-        <h2>Kullanım Koşulları</h2>
-        <p><strong>Son güncelleme:</strong> 27 Şubat 2026</p>
-        <p>Bu Kullanım Koşulları ("Koşullar"), VetDose mobil uygulamasını ("Uygulama") indirip kullanmanıza ilişkin hükümleri içerir. Uygulamayı kullanarak bu Koşulları kabul etmiş sayılırsınız.</p>
+        <h2>Kullanim Kosullari</h2>
+        <p><strong>Son guncelleme:</strong> 2 Nisan 2026</p>
+        <p>Bu Kosullar, VetDose mobil uygulamasini indirmeniz ve kullanmaniz icin gecerlidir. Uygulamayi kullanarak bu kosullari, <a href="privacy_policy.html">Gizlilik Politikasi</a>'ni ve <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Apple Standard EULA</a>'sini kabul etmis olursunuz.</p>
       </section>
 
       <section>
-        <h2>1. Kabul</h2>
-        <p>Uygulamayı indirerek, yükleyerek veya kullanarak bu Koşulları, <a href="https://kadirceylan-web.github.io/vetdose-legal/privacy_policy.html">Gizlilik Politikası</a>'nı ve <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple Standart EULA</a>'sını kabul etmiş olursunuz. Kabul etmiyorsanız Uygulamayı kullanmayınız.</p>
+        <h2>1. Hizmetin Kapsami</h2>
+        <ul>
+          <li>VetDose, veteriner hekimler ve profesyonel gozetim altindaki veterinerlik ogrencileri icin referans ve klinik karar destek amaciyla sunulur.</li>
+          <li>Uygulamadaki bilgiler ilac ruhsatnamesi, prospektus, SmPC veya vaka bazli klinik degerlendirme yerine gecmez.</li>
+          <li>Klinik karar, tedavi plani ve nihai doz sorumlulugu her zaman uygulamayi kullanan veteriner hekime aittir.</li>
+        </ul>
       </section>
 
       <section>
-        <h2>2. Hizmet Tanımı</h2>
-        <p>VetDose, veteriner hekimler ve veterinerlik öğrencileri için geliştirilmiş bir ilaç dozaj hesaplama ve referans uygulamasıdır. Uygulama, uluslararası veteriner farmakoloji kaynaklarından derlenen ilaç dozaj bilgilerine erişim sağlar.</p>
-      </section>
-
-      <section>
-        <h2>3. Tıbbi Sorumluluk Reddi ve Sorumluluk Sınırlaması</h2>
+        <h2>2. Erisim ve Ucretlendirme</h2>
+        <ul>
+          <li>VetDose belirli donemlerde tum kullanicilar icin ucretsiz lansman erisimi sunabilir.</li>
+          <li>Ucretsiz lansman doneminde satin alma akisi kapali olabilir veya sadece bilgilendirme modunda gorunebilir.</li>
+          <li>Ucretli doneme gecis planlanirsa, uygulama kullaniciya onceden bildirim gosterebilir.</li>
+          <li>Abonelikler etkinlestirildiginde odeme ancak kullanicinin acik satin alma onayindan sonra baslar.</li>
+          <li>Aktif auto-renewable aboneliklerde faturalama, yenileme, iptal ve iade surecleri Apple tarafindan yonetilir.</li>
+        </ul>
+        <p>Abonelik yonetimi: <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener">apps.apple.com/account/subscriptions</a></p>
         <div class="warning">
-          <strong>ÖNEMLİ: VetDose yalnızca referans ve bilgilendirme amaçlıdır. Klinik teşhis, tedavi reçetesi veya tıbbi tavsiye niteliği taşımaz.</strong>
+          Ucretsiz lansman donemi tek basina faturalama baslatmaz. Faturalama yalnizca ucretli erisim etkinlestirildiginde ve kullanici satin almayi onayladiginda baslar.
         </div>
+      </section>
+
+      <section>
+        <h2>3. Veri Isleme Ozeti</h2>
         <ul>
-          <li>Tüm tedavi kararları, lisanslı veteriner hekimin sorumluluğundadır.</li>
-          <li>Uygulamadaki dozaj ve endikasyon bilgileri yardımcı referans verisi niteliğindedir; her zaman güncel ilaç ruhsatnamesi, prospektüs ve SPC/SmPC belgelerini doğrulayınız.</li>
-          <li>Derleme ve hesaplama sürecinde hatalar oluşabilir; verilerin %100 doğruluğu garanti edilmez.</li>
-          <li>Uygulama geliştiricileri, Uygulamada yer alan bilgilere dayanılarak alınan klinik kararlardan doğabilecek hiçbir doğrudan, dolaylı, arızi, özel veya sonuç niteliğindeki zarardan sorumlu tutulamaz.</li>
-          <li>Sorumluluk, ilgili mevzuatın izin verdiği azami ölçüde sınırlandırılmış olup, her durumda kullanıcının son 12 ay içinde ödediği abonelik ücretini aşamaz.</li>
+          <li><strong>Kimlik dogrulama:</strong> Supabase uzerinden e-posta / Apple / Google girisi</li>
+          <li><strong>Analytics:</strong> Hesapla iliskili sinirli uygulama olaylari</li>
+          <li><strong>Abonelik:</strong> RevenueCat ve Apple, yalnizca ticari akis aktif oldugunda</li>
+          <li><strong>Silme talebi:</strong> Uygulama ici hesap silme veya <a href="mailto:vetdoseapp@gmail.com">vetdoseapp@gmail.com</a></li>
         </ul>
       </section>
 
       <section>
-        <h2>4. Abonelik Koşulları</h2>
+        <h2>4. Kullanici Sorumluluklari</h2>
         <ul>
-          <li>Abonelik, App Store üzerinden otomatik yenilenir. Ücret, satın alma onayında Apple ID hesabından tahsil edilir.</li>
-          <li>Abonelik, mevcut dönem bitiminden en az 24 saat önce iptal edilmezse otomatik yenilenir.</li>
-          <li>Ücretsiz deneme süresi (varsa) bitmeden önce iptal edilmezse, deneme sonunda abonelik başlar.</li>
-          <li>Aboneliğinizi <a href="https://apps.apple.com/account/subscriptions">Apple Hesap Ayarları</a>'ndan yönetebilirsiniz.</li>
-          <li>Satın alınan abonelik süresi içinde iade yapılmaz; iade talepleri Apple'ın iade politikasına tabidir.</li>
+          <li>Uygulamayi yalnizca yasal amaclarla kullanacaksiniz.</li>
+          <li>Uygulamanin tersine muhendisligini, kaynak kodunu cikarmayi veya sistemi kotuye kullanmayi denemeyeceksiniz.</li>
+          <li>Hesaplanan her doz ve referans bilgisini uygulamadan once birincil kaynaklarla dogrulayacaksiniz.</li>
+          <li>Uygulamadaki verileri yetkisiz ticari kopyalama veya yeniden dagitma amaciyla kullanmayacaksiniz.</li>
         </ul>
       </section>
 
       <section>
-        <h2>5. Fikri Mülkiyet</h2>
-        <p>Uygulamanın tasarımı, kaynak kodu, veritabanı yapısı, arayüz tasarımı ve markası dahil tüm fikri mülkiyet hakları uygulama geliştiricisine aittir. Kullanıcıya, bu Koşullar kapsamında yalnızca kişisel, devredilemez ve münhasır olmayan bir kullanım lisansı verilir.</p>
+        <h2>5. Garanti Reddi ve Sorumluluk Siniri</h2>
+        <p>Uygulama "oldugu gibi" ve "mevcut haliyle" sunulur. Acik veya zimni garanti verilmez.</p>
+        <div class="warning">
+          VetDose tibbi tani, recete veya tedavi talimati vermez. Gelistirici, uygulamadaki bilgilere dayanilarak alinan klinik kararlardan dogan dogrudan veya dolayli zararlardan sorumlu tutulamaz.
+        </div>
       </section>
 
       <section>
-        <h2>6. Kullanıcı Sorumlulukları</h2>
+        <h2>6. Fikri Mulkiyet ve Uygulanacak Hukuk</h2>
         <ul>
-          <li>Uygulamayı yalnızca yasal amaçlarla kullanacaksınız.</li>
-          <li>Uygulamayı tersine mühendislik, kaynak kod çıkarma veya modifiye etme girişiminde bulunmayacaksınız.</li>
-          <li>Uygulamadaki verileri ticari amaçla kopyalamayacak, dağıtmayacak veya yeniden yayınlamayacaksınız.</li>
-          <li>Hesaplanan her dozu, uygulamadan önce birincil kaynaklar ile doğrulayacaksınız.</li>
+          <li>Kaynak kodu, veritabani yapisi, marka ve icerik dahil tum fikri mulkiyet haklari gelistiriciye aittir.</li>
+          <li>Bu kosullar Turkiye Cumhuriyeti hukukuna tabidir. Uyusmazliklarda Istanbul Mahkemeleri ve Icra Daireleri yetkilidir.</li>
         </ul>
       </section>
 
       <section>
-        <h2>7. Garanti Reddi</h2>
-        <p>Uygulama "OLDUĞU GİBİ" ve "MEVCUT HALİYLE" sunulmaktadır. Açık veya zımni hiçbir garanti verilmemektedir. Ticari elverişlilik, belirli bir amaca uygunluk veya ihlal etmeme garantileri dahil ancak bunlarla sınırlı olmaksızın hiçbir garanti bu Uygulama kapsamında sağlanmaz.</p>
-      </section>
-
-      <section>
-        <h2>8. Tazminat</h2>
-        <p>Kullanıcı, Uygulamayı kullanımından veya bu Koşulları ihlal etmesinden kaynaklanan tüm talep, dava, zarar ve masraflara karşı uygulama geliştiricisini tazmin etmeyi ve savunmasız bırakmamayı kabul eder.</p>
-      </section>
-
-      <section>
-        <h2>9. Uygulanacak Hukuk ve Yargı Yetkisi</h2>
-        <p>Bu Koşullar, Türkiye Cumhuriyeti hukukuna tabi olup, uyuşmazlıklarda İstanbul Mahkemeleri ve İcra Daireleri yetkilidir.</p>
-      </section>
-
-      <section>
-        <h2>10. Yaş Gerekliliği</h2>
-        <p>Uygulamayı kullanmak için en az 18 yaşında olmanız veya lisanslı bir veteriner hekim / veterinerlik öğrencisi olmanız gerekmektedir.</p>
-      </section>
-
-      <section>
-        <h2>11. Değişiklikler</h2>
-        <p>Bu Koşullar önceden bildirimde bulunarak güncellenebilir. Güncelleme sonrası Uygulamayı kullanmaya devam etmeniz, yeni Koşulları kabul ettiğiniz anlamına gelir.</p>
-      </section>
-
-      <section>
-        <h2>12. Bölünebilirlik</h2>
-        <p>Bu Koşulların herhangi bir hükmünün geçersiz veya uygulanamaz bulunması halinde, kalan hükümler tam yürürlükte kalmaya devam eder.</p>
-      </section>
-
-      <section>
-        <h2>13. Sözleşmenin Bütünlüğü</h2>
-        <p>Bu Koşullar, Gizlilik Politikası ve Apple Standart EULA ile birlikte, taraflar arasındaki anlaşmanın tamamını oluşturur.</p>
-      </section>
-
-      <section>
-        <h2>14. Gizlilik</h2>
-        <p>Veri işleme esasları için <a href="https://kadirceylan-web.github.io/vetdose-legal/privacy_policy.html">Gizlilik Politikası</a> geçerlidir.</p>
-      </section>
-
-      <section>
-        <h2>15. İletişim</h2>
-        <p><strong>E-posta:</strong> vetdoseapp@gmail.com</p>
-        <p><strong>Destek:</strong> <a href="https://kadirceylan-web.github.io/vetdose-legal/support.html">Destek Sayfası</a></p>
+        <h2>7. Iletisim</h2>
+        <p><strong>E-posta:</strong> <a href="mailto:vetdoseapp@gmail.com">vetdoseapp@gmail.com</a></p>
+        <p><strong>Destek:</strong> <a href="support.html">support.html</a></p>
       </section>
     </div>
 
-    <!-- ======================== ENGLISH ======================== -->
     <div id="lang-en" class="hidden">
       <section>
         <h2>Terms of Use</h2>
-        <p><strong>Last updated:</strong> February 27, 2026</p>
-        <p>These Terms of Use ("Terms") govern your use of the VetDose mobile application ("App"). By using the App, you agree to be bound by these Terms.</p>
+        <p><strong>Last updated:</strong> April 2, 2026</p>
+        <p>These Terms govern your use of the VetDose mobile application. By using the app, you agree to these Terms, our <a href="privacy_policy.html">Privacy Policy</a>, and the <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Apple Standard EULA</a>.</p>
       </section>
 
       <section>
-        <h2>1. Acceptance</h2>
-        <p>By downloading, installing, or using the App, you agree to these Terms, our <a href="https://kadirceylan-web.github.io/vetdose-legal/privacy_policy.html">Privacy Policy</a>, and the <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple Standard EULA</a>. If you do not agree, do not use the App.</p>
+        <h2>1. Scope of Service</h2>
+        <ul>
+          <li>VetDose is provided as a veterinary reference and clinical decision-support tool for professionals and veterinary students under professional supervision.</li>
+          <li>The information in the app does not replace product labels, SmPC documents, or case-specific clinical judgment.</li>
+          <li>Clinical decisions, treatment plans, and final dosage responsibility always remain with the veterinarian using the app.</li>
+        </ul>
       </section>
 
       <section>
-        <h2>2. Description of Service</h2>
-        <p>VetDose is a drug dosage calculation and reference application designed for veterinary professionals and veterinary students. The App provides access to drug dosage information compiled from international veterinary pharmacology sources.</p>
-      </section>
-
-      <section>
-        <h2>3. Medical Disclaimer &amp; Limitation of Liability</h2>
+        <h2>2. Access and Billing</h2>
+        <ul>
+          <li>VetDose may offer a temporary free-launch period with access for all users.</li>
+          <li>During the free-launch period, the purchase flow may be disabled or shown only in informational mode.</li>
+          <li>If a paid transition is planned, the app may provide advance notice in-app.</li>
+          <li>When subscriptions are enabled, billing starts only after the user explicitly confirms a purchase.</li>
+          <li>For active auto-renewable subscriptions, billing, renewal, cancellation, and refund handling are managed by Apple.</li>
+        </ul>
+        <p>Manage subscriptions: <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener">apps.apple.com/account/subscriptions</a></p>
         <div class="warning">
-          <strong>IMPORTANT: VetDose is for reference and informational purposes only. It does not constitute clinical diagnosis, treatment prescription, or medical advice.</strong>
+          A free-launch period does not trigger Apple billing by itself. Billing begins only after paid access is enabled and the user confirms a purchase.
         </div>
+      </section>
+
+      <section>
+        <h2>3. Data Handling Summary</h2>
         <ul>
-          <li>All treatment decisions remain the sole responsibility of the licensed veterinarian.</li>
-          <li>Dosage and indication data are assistive reference information; always verify against the current drug label, package insert, and SPC/SmPC documents.</li>
-          <li>Errors may occur during compilation and calculation; 100% data accuracy is not guaranteed.</li>
-          <li>The App developers shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from clinical decisions based on information provided in the App.</li>
-          <li>Liability is limited to the maximum extent permitted by applicable law and shall in no event exceed the subscription fees paid by the user in the preceding 12 months.</li>
+          <li><strong>Authentication:</strong> email / Apple / Google sign-in through Supabase</li>
+          <li><strong>Analytics:</strong> limited account-linked app events</li>
+          <li><strong>Subscriptions:</strong> RevenueCat and Apple only when the commercial flow is active</li>
+          <li><strong>Deletion requests:</strong> in-app account deletion or <a href="mailto:vetdoseapp@gmail.com">vetdoseapp@gmail.com</a></li>
         </ul>
       </section>
 
       <section>
-        <h2>4. Subscription Terms</h2>
+        <h2>4. User Responsibilities</h2>
         <ul>
-          <li>Subscriptions auto-renew via the App Store. Payment is charged to your Apple ID at purchase confirmation.</li>
-          <li>Unless canceled at least 24 hours before the current period ends, your subscription renews automatically.</li>
-          <li>If a free trial is offered, it converts to a paid subscription unless canceled before the trial ends.</li>
-          <li>You can manage your subscription in <a href="https://apps.apple.com/account/subscriptions">Apple Account Settings</a>.</li>
-          <li>No refunds are provided for the current subscription period; refund requests are subject to Apple's refund policy.</li>
+          <li>You will use the app only for lawful purposes.</li>
+          <li>You will not attempt to reverse-engineer, extract source code from, or misuse the app.</li>
+          <li>You will independently verify each calculated dose and reference detail against primary sources before administration.</li>
+          <li>You will not commercially copy, republish, or redistribute the app's data without authorization.</li>
         </ul>
       </section>
 
       <section>
-        <h2>5. Intellectual Property</h2>
-        <p>All intellectual property rights, including design, source code, database structure, user interface, and branding, belong to the App developer. You are granted a personal, non-transferable, non-exclusive license to use the App under these Terms.</p>
+        <h2>5. Warranty Disclaimer and Limitation of Liability</h2>
+        <p>The app is provided "as is" and "as available" without express or implied warranties.</p>
+        <div class="warning">
+          VetDose does not provide diagnosis, prescriptions, or treatment instructions. The developer is not liable for direct or indirect damages arising from clinical decisions made using information in the app.
+        </div>
       </section>
 
       <section>
-        <h2>6. User Responsibilities</h2>
+        <h2>6. Intellectual Property and Governing Law</h2>
         <ul>
-          <li>You will use the App only for lawful purposes.</li>
-          <li>You will not attempt to reverse-engineer, decompile, or modify the App.</li>
-          <li>You will not copy, distribute, or republish App data for commercial purposes.</li>
-          <li>You will independently verify every calculated dose against primary sources before administration.</li>
+          <li>All intellectual property rights, including source code, database structure, brand, and content, belong to the developer.</li>
+          <li>These Terms are governed by the laws of the Republic of Turkey. Disputes are subject to the courts of Istanbul, Turkey.</li>
         </ul>
       </section>
 
       <section>
-        <h2>7. Warranty Disclaimer</h2>
-        <p>The App is provided "AS IS" and "AS AVAILABLE" without warranty of any kind, either expressed or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
-      </section>
-
-      <section>
-        <h2>8. Indemnification</h2>
-        <p>You agree to indemnify and hold harmless the App developer from any claims, actions, damages, and expenses arising from your use of the App or violation of these Terms.</p>
-      </section>
-
-      <section>
-        <h2>9. Governing Law &amp; Jurisdiction</h2>
-        <p>These Terms shall be governed by the laws of the Republic of Turkey. Any disputes shall be subject to the exclusive jurisdiction of the courts of Istanbul, Turkey.</p>
-      </section>
-
-      <section>
-        <h2>10. Age Requirement</h2>
-        <p>You must be at least 18 years of age, or a licensed veterinary professional or veterinary student, to use the App.</p>
-      </section>
-
-      <section>
-        <h2>11. Modifications</h2>
-        <p>These Terms may be updated with prior notice. Your continued use of the App after any modifications constitutes acceptance of the revised Terms.</p>
-      </section>
-
-      <section>
-        <h2>12. Severability</h2>
-        <p>If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.</p>
-      </section>
-
-      <section>
-        <h2>13. Entire Agreement</h2>
-        <p>These Terms, together with the Privacy Policy and the Apple Standard EULA, constitute the entire agreement between the parties.</p>
-      </section>
-
-      <section>
-        <h2>14. Privacy</h2>
-        <p>Data handling is governed by our <a href="https://kadirceylan-web.github.io/vetdose-legal/privacy_policy.html">Privacy Policy</a>.</p>
-      </section>
-
-      <section>
-        <h2>15. Contact</h2>
-        <p><strong>Email:</strong> vetdoseapp@gmail.com</p>
-        <p><strong>Support:</strong> <a href="https://kadirceylan-web.github.io/vetdose-legal/support.html">Support Page</a></p>
+        <h2>7. Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:vetdoseapp@gmail.com">vetdoseapp@gmail.com</a></p>
+        <p><strong>Support:</strong> <a href="support.html">support.html</a></p>
       </section>
     </div>
 
     <footer>
-      <p>&copy; 2026 VetDose. Tüm hakları saklıdır / All rights reserved.</p>
+      <p>&copy; 2026 VetDose. Tum haklari saklidir / All rights reserved.</p>
     </footer>
   </div>
 
